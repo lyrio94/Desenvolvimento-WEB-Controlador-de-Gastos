@@ -1,0 +1,188 @@
+/*#modal{
+	background-color: #fff;
+	z-index: 99999999;
+	border: 1px solid;
+	padding: 100px;
+	width: 10px;
+	
+}*/
+
+/*#renda.is-active::after{
+	background: #7CB342;
+}
+#despesa.is-active::after{
+	background: #E53935;
+}
+#historico.is-active::after{
+	background: #F5F5F5;
+}*/
+
+.mdl-tabs.is-upgraded .mdl-tabs__tab.is-active:after{
+	background: #424242;
+}
+.mdl-tabs__tab .mdl-tabs__ripple-container .mdl-ripple{
+	background: #424242;
+}
+
+.container{
+	padding: 70px;
+	border: 1px solid #424242;
+	padding-bottom: 30px;
+	padding-top: 40px;
+	background-color: #EEEEEE;
+	/*border-radius: 30px;*/
+	margin-top: 70px;
+	margin-left: 400px;
+	margin-right: 350px;
+	box-shadow: 3px 5px 10px #BDBDBD;
+}
+
+#cadastrar{
+	background-color: #424242;
+	color: #fff;
+}
+
+.campos{
+	margin: 30px;
+}
+
+.campos > input{
+	height: 10px;
+	border: none;
+	border-radius: 8px;
+}
+
+#data{
+	text-align: center;
+}
+
+#nm_movimentacao, #dinheiro, #data{
+	width: 300px;
+}
+
+select{
+	background-color: #fff;
+	font-size: 16px;
+	border: none;
+	border-radius: 8px;
+	height: 35px;
+	width: 300px;
+}
+
+label{
+	font-size: 13px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.lblPlanejamento{
+	margin-right: 10px;
+}
+
+.lblTipo{
+	margin-right: 50px;
+}
+
+.lblConta{
+	margin-right: 41px;
+}
+
+.lblCategoria{
+	margin-right: 18px;	
+}
+
+.lblNome{
+	margin-right: 16px;
+}
+
+.lblValor{
+	margin-right: 45px;
+}
+
+.lblData{
+	margin-right: 48px;
+}
+
+.form-title{
+	font-size: 25px;
+	color: #424242;
+	font-weight: bold;
+}
+
+#cadastrar{
+	margin-left: 400px;
+}
+
+#dinheiro{
+	text-align: right;
+}
+
+#table_conta{
+	float: right;
+	background-color: #fff;
+}
+
+#saldo{
+	background-color: #F5F5F5;
+	float: right;
+	z-index: 9999999;
+	box-shadow: 1px 3px 10px #9E9E9E;
+}
+
+.saldo-total{
+	font-size: 16px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+}
+
+.lista_movimentacao{
+	width: 79.9%;	
+}
+
+.lista_movimentacao > table{
+	width: 100%;
+	border-spacing: 0px;
+}
+
+.valor{
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+#modal{
+	position: relative;
+	top: -68%;
+	left: 75%;
+	z-index: 9999;
+	background-color: #424242;
+	width: 23%;
+	color: #F5F5F5;
+}
+
+#nm_conta, #sd_conta{
+	border: none;
+	height: 15px;
+	border-radius: 5px;
+}
+
+#btn_add_conta{
+	border: none;
+	background-color: #F5F5F5;
+	color: #424242;
+	border-radius: 3px;
+	height: 25px;
+}
+
+#formConta > table{
+	padding: 10px;
+}
+
+.formConta-title{
+	padding: 3px;
+}
+
+/*.extrato{
+	background-color: #EEEEEE;
+	padding: 70px;
+}*/
